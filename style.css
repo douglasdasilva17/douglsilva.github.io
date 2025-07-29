@@ -147,6 +147,14 @@ header {
     text-align: center;
 }
 
+.card-download {
+    padding: 5px 10px;
+    background-color: var(--color-blue);
+    filter: brightness(90%);
+    border-radius: 20px;
+    text-align: center;
+}
+
 .card-info a {
     color: white;
     text-decoration: none;
