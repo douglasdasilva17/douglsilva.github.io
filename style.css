@@ -1,34 +1,34 @@
 @import "https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap";
 
-:root{
+:root {
     --color-green: #2ecc71;
     --color-purple: #7159c1;
     --color-white: #ecf0f1;
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
     border: 0;
 }
 
-body{
-    background: #282a36;    
+body {
+    background: #282a36;
     font-family: 'Source Sans Pro';
-    color: var(--color-white);    
+    color: var(--color-white);
 }
 
-header{
+header {
     padding: 20px;
     border-bottom: 1px solid #333;
-    background-color: rgba(0,0,0,0.1);
+    background-color: rgba(0, 0, 0, 0.1);
 }
 
 .links {
     text-align: center;
 }
 
-.links a{
+.links a {
     color: var(--color-white);
     font-size: 18px;
     line-height: 28px;
@@ -37,30 +37,30 @@ header{
     text-decoration: none;
 }
 
-.links a:hover{                              
-    color: var(--color-green);                              
+.links a:hover {
+    color: var(--color-green);
     transition: color 700ms;
 }
 
-#wrapper{
+#wrapper {
     text-align: center;
-    padding: 30px;
+    padding: 40px;
 }
 
-#wrapper img{
+#wrapper img {
     height: 250px;
     border-radius: 50%;
     border: 5px solid var(--color-green);
-    margin-bottom: 30px;    
+    margin-bottom: 30px;
 }
 
-#wrapper h1{
+#wrapper h1 {
     font-size: 30px;
     line-height: 40px;
-    font-weight: bold;    
+    font-weight: bold;
 }
 
-#wrapper h2{
+#wrapper h2 {
     font-size: 20px;
     line-height: 30px;
     font-weight: 500;
@@ -68,15 +68,15 @@ header{
     opacity: 0.6;
 }
 
-#wrapper p{
-    max-width: 500px;
+#wrapper p {
+    max-width: 1024px;
     margin: 15px auto;
-    font-size: 20px;    
-    line-height: 30px; 
-    font-weight: bold;       
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: bold;
 }
 
-#wrapper p a{
+#wrapper p a {
     color: var(--color-green);
     text-decoration: none;
 }
@@ -86,7 +86,7 @@ header{
 }
 
 /*=== CARDS ===*/
-.cards{
+.cards {
     max-width: 800px;
     margin: 0 auto;
     display: grid;
@@ -94,53 +94,52 @@ header{
     gap: 20px;
 }
 
-.card{            
-    border-radius: 20px;    
+.card {
+    border-radius: 20px;
     background-color: var(--color-purple);
 }
 
-.card:hover {        
+.card:hover {
     border: 1px solid var(--color-green);
     filter: brightness(90%);
     transition: color 700ms;
 }
 
-.card-image-container img
-{    
+.card-image-container img {
     border-radius: 20px 20px 0 0;
-    width: 100%;    
+    width: 100%;
     height: 195px;
 }
 
 .card-info {
-    padding: 10px;     
+    padding: 10px;
 }
 
-.card-content{    
+.card-content {
     padding: 10px;
     font-size: 20px;
     line-height: 30px;
-    font-weight: bold;        
+    font-weight: bold;
     text-align: center;
 }
 
-.card-info{
+.card-info {
     font-size: 20px;
     line-height: 30px;
-    font-weight: bold;    
+    font-weight: bold;
     max-width: 100%;
     display: grid;
     grid-template-columns: 1fr;
 }
 
-.card-name{     
-    margin-bottom: 20px;      
+.card-name {
+    margin-bottom: 20px;
     text-align: center;
     color: white;
     opacity: 0.6;
 }
 
-.card-price {    
+.card-price {
     padding: 5px 10px;
     background-color: var(--color-green);
     filter: brightness(90%);
@@ -148,54 +147,54 @@ header{
     text-align: center;
 }
 
-.card-info a{    
+.card-info a {
     color: white;
     text-decoration: none;
 }
 
-.card-info a:hover{
+.card-info a:hover {
     filter: brightness(80%);
     transition: color 700ms;
 }
 
-.footer{
+.footer {
     max-width: 800px;
-    margin: 0 auto;    
+    margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
 
-.footer-credits, .footer-contact, .footer-phone{
+.footer-credits,
+.footer-contact,
+.footer-phone {
     border-bottom: 1px solid var(--color-green);
     padding: 10px 20px;
-    text-align: center;    
+    text-align: center;
     margin: 50px auto;
     text-align: center;
 }
 
-.footer-credits a{    
+.footer-credits a {
     color: var(--color-green);
     text-decoration: none;
 }
 
-.footer-contact a{
+.footer-contact a {
     color: white;
     text-decoration: none;
 }
 
-.footer-contact a:hover{
+.footer-contact a:hover {
     color: var(--color-green);
     transition: color 700ms;
 }
 
-.footer-phone a{
+.footer-phone a {
     color: white;
     text-decoration: none;
 }
 
-.footer-phone a:hover{
+.footer-phone a:hover {
     color: var(--color-green);
     transition: color 700ms;
 }
-
-
