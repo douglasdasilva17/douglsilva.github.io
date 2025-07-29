@@ -95,6 +95,14 @@ header {
     gap: 20px;
 }
 
+.cards-videos {
+    max-width: 1024px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
 .card {
     border-radius: 20px;
     background-color: var(--color-purple);
@@ -165,6 +173,8 @@ header {
     filter: brightness(80%);
     transition: color 700ms;
 }
+
+/*=== CARDS ===*/
 
 .footer {
     max-width: 800px;
