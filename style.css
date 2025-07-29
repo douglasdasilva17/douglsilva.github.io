@@ -101,6 +101,13 @@ header {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
+
+    /* Centraliza itens dentro do grid */
+    justify-content: center;
+    /* centraliza horizontalmente as colunas */
+    align-items: center;
+    /* centraliza verticalmente os itens */
+
 }
 
 .card {
