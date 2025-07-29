@@ -105,7 +105,7 @@ header {
     /* Centraliza itens dentro do grid */
     justify-content: center;
     /* centraliza horizontalmente as colunas */
-    align-items: center;
+    align-items: flex-start;
     /* centraliza verticalmente os itens */
 
 }
