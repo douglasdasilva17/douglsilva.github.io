@@ -4,6 +4,7 @@
     --color-green: #2ecc71;
     --color-purple: #7159c1;
     --color-white: #ecf0f1;
+    --color-blue: #2ea7cc;
 }
 
 * {
@@ -149,7 +150,7 @@ header {
 
 .card-download {
     padding: 5px 10px;
-    background-color: var(--color-sky);
+    background-color: var(--color-blue);
     filter: brightness(90%);
     border-radius: 20px;
     text-align: center;
