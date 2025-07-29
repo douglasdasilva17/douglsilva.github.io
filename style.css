@@ -149,7 +149,7 @@ header {
 
 .card-download {
     padding: 5px 10px;
-    background-color: var(--color-blue-200);
+    background-color: var(--color-sky);
     filter: brightness(90%);
     border-radius: 20px;
     text-align: center;
